@@ -1,6 +1,8 @@
 <template>
     <!-- custom css that comes from style block at the bottom of this document -->
-    <h1 class="custom-css">Teine</h1>
+    <h1 class="custom-css" v-for="i in 8">
+        Tekst {{ i }}
+    </h1>
 </template>
 
 <script setup>
